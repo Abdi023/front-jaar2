@@ -90,16 +90,18 @@ main{
             gap: 2rem;
             
             .div_carousel{
-                color: rgba(0,0,0,0.6);
+                color: rgba(0,0,0,0.9);
                 list-style: none;
     
                 &:hover {
-                    color: rgba(0,0,0,0.9);
+                    color: rgba(0,0,0,1);
                     cursor: pointer;
                 }
+
+                
     
                 .article_carousel_horizontal{
-                    height: 50rem;
+                    min-height: 50rem;
                     background: green;
                     
     
@@ -108,15 +110,23 @@ main{
         }
     
         .div_text_carousel{
-            border: 0.1rem solid rgba(0,0,0,0.3);
+            width: 70%;
             padding: 3rem;
-            height: 24rem;
-            gap: 1rem;
+            min-height: 30rem;
+            gap: 2rem;
             
+            border: 0.1rem solid rgba(0,0,0,0.5);
+            
+
+            .img_carousel{
+                min-width: 100%;
+                max-height: 40rem;
+                object-fit: cover;
+            }
             
 
             .p_carousel{
-                width: 75%;
+                width: 100%;
             }
         }
     
@@ -136,6 +146,11 @@ main{
                 background: white;
                 font-weight: 600;
                 cursor: pointer;
+
+                &:hover{
+                    background: rgba(0,0,0,0.9);
+                    color: white;
+                }
             }
         }
     // einde carousel
@@ -286,6 +301,36 @@ main{
                 flex-direction: column;
                 justify-content: space-between;
                 gap: 3rem;
+
+                .sub_div_categories{
+
+                    &:hover{
+                        color: rgb(8, 255, 57);
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+                .p_div_categories{
+                        
+                    &:hover{
+                        color: rgb(8, 255, 57);
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+                    
+
+                .h1_div_categories{
+                    
+                    &:hover{
+                        color: rgb(8, 255, 57);
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                    }
+                }
             }
         }
         
@@ -330,8 +375,9 @@ main{
 
         .intructie_foto{
             width: 100%;
-            height: 100%;
-            object-fit: contain;
+            min-height: 40rem;
+            object-fit: cover;
+            border-radius: 0.5rem;
         }
     }
 
@@ -417,6 +463,7 @@ main{
         padding: 2rem;
         width: 50%;
         height: 40rem;
+        gap: 2rem;
         
         
         .div_text_udemy_bussiness{
@@ -424,7 +471,7 @@ main{
             flex-direction: column;
             justify-content: center;
             gap: 2rem;
-            width: 90%;
+            width: 100%;
 
             .buttonimg_text_udemy_bussiness{
                 width: 20rem;
@@ -437,23 +484,23 @@ main{
                     background: rgba(0,0,0,1);
                 }
             }
-
             .img_text_udemy_bussiness{
-                width: 80%;
+                max-width: 100%;
+                height: 40%;
                 object-fit: contain;
-
             }
+            
         }
 
         .div_img_udemy_bussiness{
             display: flex;
             
-
+            
 
             .imagediv_img_udemy_bussiness{
                 width: 100%;
-                height: 100%;
-                object-fit: contain;
+                min-height: 40rem;
+                object-fit: cover;
             }
         }
     }
@@ -480,9 +527,9 @@ main{
             height: 40rem;
             
             .img_breng_veranderingen{
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
+                max-width: 100%;
+                height: 40rem;
+                object-fit: cover;
             }
         }
 
@@ -523,4 +570,4 @@ main{
 
 
 
-}
+
