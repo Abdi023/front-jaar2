@@ -38,7 +38,8 @@
         border-radius: 0.3rem;
     }
 
-    &__edit{
+    
+    __edit{
         border:none;
         background: none;
         font-size: 120%;
@@ -81,14 +82,16 @@
             border-radius:6rem;
             height:20rem;
             width:20rem;
+            
+            
 
             
         }
 
-        &__initials{
+        &__geel{
             width: 5rem;
             height: 5rem;
-            background: rgba(0, 255, 17, 0.804);
+            background: rgb(237, 250, 0);
             text-transform: uppercase;
             font-weight: bold;
             display: flex;
@@ -119,4 +122,9 @@
     }
 
 }
+}
+
+.wrapper{
+    display: flex;
+    justify-content: right;
 }

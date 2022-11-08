@@ -46,6 +46,7 @@ fetch("/data/trellies.json").then(
         toBeAddedWrapper.appendChild(toBeAddedButton);
 
         
+        
         let toBeAddedUl = document.createElement("ul");
         toBeAddedUl.classList.add("tasks__list");
         toBeAddedSection.appendChild(toBeAddedUl);
@@ -53,7 +54,6 @@ fetch("/data/trellies.json").then(
             let toBeAddedLi = document.createElement("li");
             toBeAddedLi.classList.add("tasks__listItem");
             toBeAddedUl.appendChild(toBeAddedLi);
-          
 
             let toBeAddedLabel = document.createElement("label");
             toBeAddedLabel.classList.add("tasks__label");
@@ -72,7 +72,7 @@ fetch("/data/trellies.json").then(
             toBeAddedLi.appendChild(toBeAddedP);
             toBeAddedSpan.classList.add("wrapper")
             toBeAddedLi.appendChild(toBeAddedSpan)
-            toBeAddedInintials.classList.add("tasks__label__initials");
+            toBeAddedInintials.classList.add("tasks__label__geel");
             toBeAddedInintials.innerText = data.activities[i].ini;
             toBeAddedSpan.appendChild(toBeAddedInintials)     
         }

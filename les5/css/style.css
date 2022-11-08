@@ -59,14 +59,14 @@ body {
   color: #eee;
   border-radius: 0.3rem;
 }
-.tasks__edit {
+.tasks __edit {
   border: none;
   background: none;
   font-size: 120%;
   font-family: "roboto";
   line-height: 1;
 }
-.tasks__edit:hover {
+.tasks __edit:hover {
   cursor: pointer;
 }
 .tasks__list {
@@ -98,10 +98,10 @@ body {
   height: 20rem;
   width: 20rem;
 }
-.tasks__label__initials {
+.tasks__label__geel {
   width: 5rem;
   height: 5rem;
-  background: rgba(0, 255, 17, 0.804);
+  background: rgb(237, 250, 0);
   text-transform: uppercase;
   font-weight: bold;
   display: flex;
@@ -120,6 +120,10 @@ body {
 }
 .tasks__label--sometime {
   background: #3c6ea0;
+}
+.wrapper {
+  display: flex;
+  justify-content: right;
 }
 
 /*# sourceMappingURL=style.css.map */

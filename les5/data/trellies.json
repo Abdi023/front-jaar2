@@ -2,37 +2,42 @@
     "title": "hET LEEFT",
     "activities": [
         {
-            "description" : "Trellie afmaken",
-            "label": "Vandaag",
+            "description" : "ik ben strijder.",
+            "label": "wdwhdwjhdkkwdkwdkw",
             "extraClass": "none",
-            "ini": "US"
+            "ini": "NL"
             
         },
 
         {
             "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum id, qui quidem cumque fugiat incidunt. Odit, in nesciunt eum tempora cum a aspernatur natus cumque aut voluptates expedita iste velit.",
             "label": "Morgen",
-            "extraClass": "tomorrow"
+            "extraClass": "tomorrow",
+            "ini": "NL"
         },
         {
             "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum id, qui quidem cumque fugiat incidunt. Odit, in nesciunt eum tempora cum a aspernatur natus cumque aut voluptates expedita iste velit.",
             "label": "Weekend",
-            "extraClass": "weekend"
+            "extraClass": "weekend",
+            "ini": "NL"
 
         },
 
         {
             "description" : "Trellie afmaken",
             "label": "Volgende week",
-            "extraClass": "nextWeek"
+            "extraClass": "nextWeek",
+            "ini": "BL"
             
         },
       
 
         {
-            "description" : "Trellie afmaken",
-            "label": "ooit",
-            "extraClass": "sometime"
+            "description" : "jeroen je weet toch ik volg gewoon mijn lessen.",
+            "label": "jij bent de beste jeroen",
+            "extraClass": "sometime",
+            "ini": "ab"
+
         }
       
     
