@@ -2,7 +2,7 @@
 
 .footer{
     width: 100%;
-    height: 30rem;
+    min-height: 30rem;
     background: #1c1d1f;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@
         .article_footer{
             display: flex;
             gap: 15rem;
+            flex-wrap: wrap;
             
 
         .ul_footer{
@@ -71,6 +72,7 @@
             padding:0 4rem;
             align-items: center;
             color: white;
+            padding: 2rem;
 
             .div_icon_author{
 

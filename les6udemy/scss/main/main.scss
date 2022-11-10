@@ -22,11 +22,9 @@ main{
 
 .section_main_udemy_cardje{
     display: flex;
-    justify-content: center;
     position: relative;
-    height: 5rem;
-    width:53%;
     bottom: 32rem;
+    left: 20rem;
 
     .h2_cardje{
         width: 25ch;
@@ -42,7 +40,6 @@ main{
     .div_main_udemy_cardje{
         display: flex;
         flex-direction: column;
-        position: absolute;
         gap: 1.5rem;
         padding: 2rem;
         width: 42.5rem;
@@ -59,7 +56,7 @@ main{
     position: relative;
     left: 12rem;
     width: 85%;
-    padding: 2rem;
+    
     gap: 2rem;
      
     
@@ -98,19 +95,11 @@ main{
                     cursor: pointer;
                 }
 
-                
-    
-                .article_carousel_horizontal{
-                    min-height: 50rem;
-                    background: green;
-                    
-    
-                }
             }
         }
     
         .div_text_carousel{
-            width: 70%;
+            min-width: 70%;
             padding: 3rem;
             min-height: 30rem;
             gap: 2rem;
@@ -163,7 +152,7 @@ main{
         flex-direction: column;
         position: relative;
         top: 8rem;
-        height: 60rem;
+        min-height: 60rem;
         gap: 2rem;
 
         .section_cardjes_courses_udemy_h1{
@@ -175,6 +164,7 @@ main{
         .article_cardjes_courses_udem{
             display: flex;
             gap: 1.3rem;
+            flex-wrap: wrap;
 
             .div_cardjes_courses{
                 width: 25rem;
@@ -237,19 +227,7 @@ main{
                     opacity: 1;
                 }
 
-                .overlay{
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    width: 100%;
-                    height: 100%;
-                    opacity: 0;
-                    transform: 0.5s ease;
-                    background: rgba(0,0,0,0.2);
-                }
-
+                
 
 
                 .udemy_courses_cardjes_images{
@@ -274,8 +252,9 @@ main{
     width: 100%;
     height: 50rem;
     display: flex;
-    padding: 0 14rem;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     
 
@@ -283,14 +262,17 @@ main{
         display: flex;
         gap: 4rem;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         height: 40rem;
         padding: 2rem 0;
-        
+        justify-content: center;
+        align-items: center;
 
         .article_categorie{
             display: flex;
-            justify-content: space-between;
+            gap: 4rem;
+            justify-content: center;
+            align-items: center;
             
             
             width: 100%;
@@ -355,18 +337,20 @@ main{
 
 .instructie__article{
     width: 100%;
-    height: 60rem;
+    min-height: 60rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
+    padding: 4rem;
 
 
     .section_instractor{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 8rem;
+        gap: 4rem;
+       
     
 
     .div_instractor_image{
@@ -375,7 +359,7 @@ main{
 
         .intructie_foto{
             width: 100%;
-            min-height: 40rem;
+            height: 30rem;
             object-fit: cover;
             border-radius: 0.5rem;
         }
@@ -394,7 +378,8 @@ main{
         }
 
         .p_instractor{
-            width: 38ch;
+            width: 30ch;
+            word-wrap: break-word;
         }
         
         .button_instractor{
@@ -420,7 +405,7 @@ main{
 }
 
 .section_trusted_by_team{
-    height: 40rem;
+    min-height: 40rem;
     display: flex;
     align-items:center;
     flex-direction: column;
@@ -434,7 +419,7 @@ main{
         width: 100%;
         padding: 2rem;
         background: #b8ddef;
-        height: 25rem;
+        min-height: 25rem;
 
         .h1_trusted_by_team{
             font-size: 3rem;
@@ -446,6 +431,7 @@ main{
             align-items: center;
             justify-content: space-around;
             gap: 12rem;
+            flex-wrap: wrap;
         }
     }
 }
@@ -456,13 +442,14 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 50rem;
+    min-height: 50rem;
 
     .article_udemy_bussiness{
         display: flex;
-        padding: 2rem;
-        width: 50%;
-        height: 40rem;
+        padding: 2rem 40rem;
+        align-items: center;
+        justify-content: center;
+        min-height: 40rem;
         gap: 2rem;
         
         
@@ -471,7 +458,15 @@ main{
             flex-direction: column;
             justify-content: center;
             gap: 2rem;
-            width: 100%;
+            max-width: 100%;
+            min-height: 40rem;
+
+            .ptext_udemy_bussiness{
+                width: 30ch;
+            }
+            
+           
+            
 
             .buttonimg_text_udemy_bussiness{
                 width: 20rem;
@@ -515,7 +510,7 @@ main{
     padding: 2rem;
     justify-content: center;
     align-items: center;
-    height: 50rem;
+    min-height: 50rem;
 
     .article_breng_verandering{
         display: flex;
@@ -528,7 +523,7 @@ main{
             
             .img_breng_veranderingen{
                 max-width: 100%;
-                height: 40rem;
+                min-height: 40rem;
                 object-fit: cover;
             }
         }
