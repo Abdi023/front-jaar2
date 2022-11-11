@@ -123,6 +123,7 @@
   cursor: pointer;
 }
 .udemy3__carousel1:hover {
+  cursor: pointer;
   background: rgb(0, 0, 0);
 }
 
@@ -180,8 +181,8 @@
   width: 25rem;
 }
 .udemy5__img {
-  width: 100%;
-  height: 100%;
+  width: 25rem;
+  height: 15rem;
   object-fit: cover;
 }
 .udemy5__text {
