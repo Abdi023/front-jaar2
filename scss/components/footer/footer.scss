@@ -1,0 +1,57 @@
+.footer{
+    min-height: 30rem;
+    width: 100%;
+    background: rgba(0,0,0,0.95);
+    padding: 2rem;
+    color: white;
+
+    
+    
+    &__section{
+        padding: 2rem;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    &__article{
+        list-style: none;
+        display: flex;
+        gap: 20rem;
+        color: white;
+        flex-wrap: wrap;
+        
+
+    }
+
+    &__div{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+        
+    }
+
+    &__li{
+
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+    }
+
+    &__icon_author{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        
+    }
+    
+    &__iconauthor{
+        width: 8rem;
+        height: 8rem;
+    }
+}

@@ -1,0 +1,294 @@
+@use '../abstract/mixins.scss';
+.udemy{
+    @include mixins.headerflex;
+    flex-direction: column;
+    position: relative;
+
+    &__foto{
+        width: 85%;
+        height: 40rem;
+        object-fit: cover;
+    }
+
+    &__kaart{
+        position: absolute;
+        top: 10rem;
+        width: 40rem;
+        left: 20%;
+        padding: 2rem;
+        height: 18rem;
+        background: white;
+        border-radius: 1rem;
+        box-shadow: 0.5rem 0.5rem 3rem 0.2rem rgba(253, 253, 253, 0.4);
+    }
+}
+
+.udemy2{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 4rem 11rem;
+    &__sectionh2{
+        width: 30;
+    }
+}
+
+.udemy3{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 11rem;
+    gap: 2rem;
+    .udemy__tabs{
+        display: flex;
+        gap: 5rem;
+        list-style-type: none;  
+        flex-wrap: wrap;
+         
+    }
+
+    &__carousel1{
+        list-style: none;
+        background: rgba(0,0,0,0.7);
+        cursor: pointer;
+        &:hover{
+            background: rgba(0,0,0,1);
+        }
+    }
+    
+}
+
+.udemy4:nth-child(2),
+.udemy4:nth-child(3),.udemy4:nth-child(5),
+.udemy4:nth-child(4),.udemy4:nth-child(6),
+.udemy4:nth-child(7){
+    display: none;
+}
+
+.udemy4{
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid;
+    width: 80%;
+    gap: 2rem;
+    padding: 2rem;
+
+    &__carousel5{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        
+    }
+
+    &__button{
+        width: 20rem;
+        height: 4rem;
+        background: white;
+        border: 0.1rem solid rgba(0,0,0,0.9);
+        cursor: pointer;
+        border-radius: 0.5rem;
+        &:hover{
+            background: rgba(0,0,0,0.9);
+            color: white;
+        }
+    }
+}
+
+.udemy5{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    &__art{
+        display: flex;
+        gap: 4rem;
+        flex-wrap: wrap;
+    }
+
+    &__h2{
+
+    }
+
+    &__article{
+        
+        box-shadow: 0.5rem 0.5rem 3rem 0.2rem rgba(0,0,0,0.2);
+        width: 25rem;
+        height: 33rem;
+        border-radius: 0.5rem;
+    }
+
+    &__cardsimg{
+        width: 25rem;
+        
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__text{
+        padding:0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    &__author{
+
+    }
+
+    &__card{
+        width: 40rem;
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    &__reviewnumbers{
+
+    }
+
+    &__listrevieuw{
+        list-style: none;
+    }
+
+    &__ster{
+        color: orange;
+    }
+    &__prijscoursesnow{
+        display: flex;
+        gap: 4rem;
+    }
+    &__prijsnow{
+
+    }
+    &__prijsprevies{
+        
+        color: rgba(0,0,0,0.7);
+        text-decoration: line-through;
+    }
+}
+
+.udemy6{
+    padding:4rem 0rem;
+    min-height: 60rem;
+    
+    &__article{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        min-height: 50rem;
+    }
+    
+    &__text{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14rem;
+    }
+
+    &__categories{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    }
+
+    &__h3{
+        cursor: pointer;
+
+        &:hover{
+            color: blue;
+        }
+    }
+
+    &__p{
+        cursor: pointer;
+
+        &:hover{
+            color: blue;
+        }
+    }
+
+    &__sub{
+        cursor: pointer;
+
+        &:hover{
+            color: blue;
+        }
+    }
+
+    &__button{
+        width: 20rem;
+        height: 4rem;
+        background-color: white;
+        border: 0.1rem solid rgba(0,0,0,0.9);
+
+        &:hover{
+            background: black;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.udemy7{
+    padding:10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20rem;
+    
+    
+
+    &__section{
+        width: 70%;
+        	display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            flex-wrap: wrap;
+    }
+
+    &__image{
+        max-width:100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    &__foto{
+        width: 40rem;
+        height: 30rem;
+        object-fit: cover;
+    }
+
+    &__text{
+        @include mixins.flexdirecolumn;
+        flex-wrap: wrap;
+
+
+    }
+
+    &__h2{
+        width: 20ch;
+    }
+
+    &__p{
+        width: 40ch;
+    }
+
+&__button{
+    width: 24rem;
+    height: 4rem;
+    background: white;
+    border: 0.1rem solid rgba(0,0,0,0.9);
+
+    &:hover{
+        cursor: pointer;
+        background: black;
+        color: white;
+    }
+}
+}

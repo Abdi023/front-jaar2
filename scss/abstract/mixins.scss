@@ -1,0 +1,12 @@
+@mixin headerflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin flexdirecolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

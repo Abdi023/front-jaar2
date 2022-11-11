@@ -1,0 +1,79 @@
+@use '../../abstract/mixins.scss';
+.header{
+    @include mixins.headerflex;
+
+    &__ul{
+        @include mixins.headerflex;
+        gap: 4rem;
+        list-style: none;
+        padding: 2rem;
+        width: 100%;
+        box-shadow: 0.5rem 0.5rem 3rem 0.2rem rgba(0,0,0,0.2);
+    }
+
+    &__li{
+        list-style: none;
+        
+    }
+
+    &__img{
+        max-width: 6rem;
+    }
+    
+    &__input{
+        width: 100%;
+        
+        height: 3rem;
+        border-radius: 2rem;
+        border: 0.1rem solid rgba(0,0,0,0.9);
+        padding:1rem 4rem;
+    }
+
+    &__searchinput{
+        width: 45rem;
+        @include mixins.headerflex
+    }
+
+    &__search{
+        position: relative;
+        left: 3.7rem;
+    }
+
+    &__inlog{
+        width: 10rem;
+        border: 0.1rem solid rgba(0,0,0,0.9);
+        height: 4rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background: rgb(243, 238, 238);
+        cursor: pointer;
+    }
+
+    &__inschrijven{
+        width: 11rem;
+        border: 0.1rem solid rgba(0,0,0,0.9);
+        height: 4rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background: rgb(0, 0, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+    &__globe{
+        width: 4rem;
+        height: 4rem;
+        font-size: 2.8rem;
+        @include mixins.headerflex;
+        border: 0.1rem solid rgba(0,0,0,0.9);
+        cursor: pointer;
+    }
+
+
+
+    &__sidebars{
+        display: none;
+    }
+}

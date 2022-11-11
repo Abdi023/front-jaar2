@@ -1,0 +1,137 @@
+@use '../../abstract/mixins.scss';
+@media screen and (max-width: 50rem) {
+    .udemy{
+        
+    
+        &__kaart{
+            position: absolute;
+            top: 10rem;
+            width: 32rem;
+            left: 10%;
+            padding: 2rem;
+            height: 18rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0.5rem 0.5rem 3rem 0.2rem rgba(253, 253, 253, 0.4);
+        }
+    }
+
+    .udemy2{
+        padding: 4rem 4rem;
+    }
+    
+
+
+
+.udemy3{
+    padding: 4rem 3rem;
+    &__tabs{
+        position: relative;
+        right: 10rem;
+    }
+
+ 
+    .udemy4:nth-child(2),
+    .udemy4:nth-child(3),.udemy4:nth-child(5),
+    .udemy4:nth-child(4),.udemy4:nth-child(6),
+    .udemy4:nth-child(7){
+        display: none;
+    }
+
+ .udemy4{
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid;
+    width: 35rem;
+    gap: 2rem;
+    padding: 2rem;
+
+    &__carousel5{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    &__button{
+        width: 20rem;
+        height: 4rem;
+        background: white;
+        border: 0.1rem solid rgba(0,0,0,0.9);
+        cursor: pointer;
+        border-radius: 0.5rem;
+        &:hover{
+            background: rgba(0,0,0,0.9);
+            color: white;
+        }
+    }
+}
+
+.umdey3__carousel1:nth-child(2),
+.umdey3__carousel1:nth-child(4),
+.umdey3__carousel1:nth-child(5),
+.umdey3__carousel1:nth-child(6){
+    display: none;
+}
+    
+}
+
+.udemy7{
+    padding:10rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20rem;
+    
+    
+
+    &__section{
+        width: 100%;
+        	display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            flex-wrap: wrap;
+    }
+
+    &__image{
+        max-width:30rem;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    &__foto{
+        width: 30rem;
+        height: 30rem;
+        object-fit: cover;
+    }
+
+    
+
+    &__h2{
+        width: 20ch;
+    }
+
+    &__p{
+        width: 30ch;
+    }
+
+&__button{
+    width: 24rem;
+    height: 4rem;
+    background: white;
+    border: 0.1rem solid rgba(0,0,0,0.9);
+
+    &:hover{
+        cursor: pointer;
+        background: black;
+        color: white;
+    }
+}
+}
+
+}
+
+
+
+

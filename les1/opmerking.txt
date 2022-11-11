@@ -1,8 +1,0 @@
-1. gebruiken maken van .webp door het foto's sneller te laden.
-2. bij het groepen van tags is het better om classe gebruik van te kunnen maken om het snel te herkennen, 
-   en om te voorkomen dat het gaals wordt.
-3. bij @media zat ik beetje vast met het metingen van de div en de headers.
-4. buttons vond ik zelf prachtig.
-5. the gallerijen vond ik cool. maar ik zou het mooie vinden als het van top naar bottom zou gaan.
-6. bij het img's is het verstandig als je het alt text toevoegt als het foto niet doet.
-
